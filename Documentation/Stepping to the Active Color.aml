@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="d5c0bcf1-2e36-4d63-a62c-93ec652669a7" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the process of stepping to an active color, copying the steps into the active palette.</para>
+      <mediaLink>
+        <image xlink:href="Step-to-Active-Color"/>
+      </mediaLink>
+    </introduction>
+    <section address="SteppingToTheActiveColor">
+      <title>Stepping to the Active Color</title>
+      <content>
+        <para>To step to the active color within the palette mode, first select a color swatch. Then, access the palette mode's context menu option: "Step to Active Color from Stored Color". The amount of steps to take to get to the active color can be selected beneath this menu. Additionally, the stepping can be further customized by selecting a color space to use.</para>
+        <para>Regardless of color space, the stepping method remains the same. Each step is a simple linear step. However, each color space is laid out differently. Most notably, CIE XYZ and CIE Lab are perceptual, yielding less rigid steps. By comparison, HSV and RGB steps are uniform and unvaried.</para>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

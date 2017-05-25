@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="d5f102e2-0acd-4e24-b1d7-fd080feda69b" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>The topics in this section cover most information pertinent to the palette feature. The palette feature allows for storage of colors for comparison or re-use.</para>
+      <mediaLink>
+        <image xlink:href="Palette-Mode"/>
+      </mediaLink>
+    </introduction>
+    <section address="AvailableActions">
+      <title>Available Actions</title>
+      <content>
+        <mediaLink>
+          <image xlink:href="Palette-Context-Menu"/>
+        </mediaLink>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Automatically Use Selected Color as Active Color</legacyBold>: When a stored color is selected with the left mouse button, automatically use that color as the active color.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Remove Stored Color</legacyBold>: Removes the stored color and all of its children.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Replace Stored Color with Active Color</legacyBold>: Replaces the selected stored color with the active color.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Step to Active Color from Stored Color</legacyBold>: Adds colors beneath the selected stored color, stepping toward the active color by the specified amount of steps within the selected color space.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Use Stored Color as Active Color</legacyBold>: Sets the active color to the selected stored color.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Use Stored Color for Comparison</legacyBold>: Sets the previous color to the selected stored color.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Switch to Color Select Mode</legacyBold>: Yields control to the color picker.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <section address="MouseActions">
+      <title>Mouse Actions</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Left-Click</legacyBold>: Selects a color swatch. Only one color swatch can be selected at a time.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Right-Click</legacyBold>: Opens the palette mode's context menu.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Middle Mouse</legacyBold> (click and drag): Pan the drawing area.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Mouse Wheel</legacyBold>: Magnify or minify the drawing area.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Mouse Move</legacyBold> (hover): Hover-selects a color swatch. Only one color swatch can be hover-selected at a time. Hover-selection is sufficient to enable all of the palette mode's color swatch specific context menu actions.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

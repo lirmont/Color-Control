@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="776a35fa-6e47-4652-a8a2-ac9f6c667865" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>The topics in this section cover most information pertinent to the color picker feature. The color picker feature is used to select and compare colors.</para>
+      <mediaLink>
+        <image xlink:href="Color-Picker-Context"/>
+      </mediaLink>
+    </introduction>
+    <section address="AvailableActions">
+      <title>Available Actions</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Auto-Compare on Store</legacyBold>: When the "Store Color to Palette" feature is used, this signals to automatically use the stored color as the color stored for comparison.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Store Color to Palette</legacyBold>: Provides a series of options for creating a hierachical palette.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Store Color for Comparison</legacyBold>: Stores the active color as the color for comparison.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Clear Comparison Color</legacyBold>: Clears the color stored for comparison.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Switch to Palette Mode</legacyBold>: Yields to the palette feature.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

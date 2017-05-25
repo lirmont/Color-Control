@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="02825f56-2c86-46f2-9e22-e374318db677" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the process for selecting a color space display. Short descriptions of the goals for each color space are provided as well.</para>
+      <mediaLink>
+        <image xlink:href="Color-Space-Context"/>
+      </mediaLink>
+    </introduction>
+    <section address="SelectingAColorSpaceDisplay">
+      <title>Selecting a Color Space Display</title>
+      <content>
+        <para>To select a color space, use the context menu provided by the dialog window (for example, right-click near the color component controls but not inside an actual control). A selected color space will display its components in the area to the right of the color picking controls. Selecting a color space that's already being displayed results in hiding the components of the color space.</para>
+      </content>
+    </section>
+    <section address="ActiveColorSpace">
+      <title>Active Color Space</title>
+      <content>
+        <para>"HSV" is the active color space. The active color space does not change. However, any color space's notation can be used to adjust the selected color.</para>
+      </content>
+    </section>
+    <section address="AvailableColorSpaces">
+      <title>Available Color Space Displays</title>
+      <content>
+        <para>The following list describes the goals of each component of each color space display:</para>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>HSV</legacyBold> (Hue, Saturation, and Value): "Hue" is a rotational component referencing an angle along a circular deformation of the RGB cube; it represents the vertical-only motion of the hue bar. "Saturation" is a percentage representing how vivid a hue is used; it represents the horizontal motion of the color selection area. "Value" is a percentage representing how light or dark the overall color is; it represents the vertical motion of the color selection area.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>RGB</legacyBold> (Red, Green, and Blue): "Red" is the red component of the color. "Green" is the green component of the color. "Blue" is the blue component of the color. This color space's components are useful for adding more of these specific colors to the active color. Combining these components results in other colors. For instance, using red and green provides the ability to add more yellow to a color while red and blue provides the ability to add more magenta to a color.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>CIE XYZ</legacyBold> (Position; X, Y, and Z): "X" represents the horizontal component of the CIE XYZ color space; it performs a similar function to hue selection in the HSV color space. "Y" represents the vertical component of the CIE XYZ color space; higher values trend toward colors visually perceived to be bright; it performs a similar function to hue selection in the HSV color space to a lesser degree than the "X" component. "Z" represents the depth component of the CIE XYZ color space; it represents the lightness or darkness of the color.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>CIE L*a*b*</legacyBold> (Position; L, a, and b): "L" represents the depth component of the CIE L*a*b* color space; it represents the lightness or darkness of the color. "a" represents the horizontal component of the CIE L*a*b* color space; it performs a similar function to hue selection in the HSV color space; its function is shared with the "b" component. "b" represents the vertical component of the CIE L*a*b* color space; it performs a similar function to hue selection in the HSV color space; its function is shared with the "a" component.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

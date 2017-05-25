@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="c973ffc9-e689-4c03-93cf-83135d462fcf" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the options related to color comparison.</para>
+      <mediaLink>
+        <image xlink:href="Color-Picker-Context-Store-Color"/>
+      </mediaLink>
+    </introduction>
+    <section address="StoredColor">
+      <title>Comparison to a Stored Color</title>
+      <content>
+        <para>When a stored color is specified, it shows beneath the active color within the interface. To store a color for comparison, use the "Store Color for Comparison" option of the context menu provided by the color picking control. Additionally, a metric is displayed comparing the stored color to the active color; this difference is a numerical representation of the visual comparison based in the L*a*b* color space (rather than the active color space, HSV, which does not consider visual perception).</para>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

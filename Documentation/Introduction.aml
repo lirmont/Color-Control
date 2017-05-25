@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="2262109d-e4b6-4583-8e85-1b1fb8db668b" revisionNumber="1">
+  <developerOrientationDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>The color control dialog is a replacement for the standard Windows color dialog. It allows a variety of options for selecting a color. Further, it allows for comparison to a previously selected color, both visually and numerically.</para>
+      <mediaLink>
+        <image xlink:href="Introduction"/>
+      </mediaLink>
+    </introduction>
+    <relatedTopics>
+    </relatedTopics>
+  </developerOrientationDocument>
+</topic>

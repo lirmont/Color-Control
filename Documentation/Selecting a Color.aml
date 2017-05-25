@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="c83eda20-5937-4b8a-8d5f-cc9a9ba20838" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers selecting a color.</para>
+      <mediaLink>
+        <image xlink:href="Select-Color"/>
+      </mediaLink>
+    </introduction>
+    <section address="SelectColor">
+      <title>Select Color</title>
+      <content>
+        <para>The primary method of color selection is to use the mouse to click within the Hue-Saturation-Value color area. Alternatively, the individual components of the color for a given color space can be set to result in a specific color.</para>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="5f6305e4-e2e4-4432-92d1-96a2777f96f6" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the basic areas of the interface.</para>
+    </introduction>
+    <section address="BasicInterface">
+      <title>Basic Interface</title>
+      <content>
+        <mediaLink>
+          <image xlink:href="Interface"/>
+        </mediaLink>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Color Picker</legacyBold>: This drawing area listens for left mouse click-and-drag movements to determine the active color. Right-click this area to access its context menu options: "Store Color to Palette", "Store Color for Comparison", and "Switch to Palette Mode".
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Hue Selection Bar</legacyBold>: This drawing area listens for left mouse click-and-drags to adjust the hue of the color.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Active Color</legacyBold>: This area provides a visual display of the color described in the active color space displays. When there is a stored color for comparison, the active color shares its space with the color for comparison.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Buttons Panel</legacyBold>: This area provides the exit strategy for this dialog. Selecting "OK" signals to the program that spawned this dialog to save or use the active color.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Color Space Displays</legacyBold>: This area displays the components of the selected color space displays. Right-click anywhere near this area to access the list of available color spaces.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <section address="BasicInterfaceWithColorComparison">
+      <title>Basic Interface with Color Comparison</title>
+      <content>
+        <mediaLink>
+          <image xlink:href="Interface-Color-Comparison"/>
+        </mediaLink>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Stored Color Comparison</legacyBold>: When a program provides a previous color, it's displayed beneath the active color display. Alternatively, the feature "Store Color for Comparison" effects the same end.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Options</legacyBold>: While a color is stored for comparison, a color difference metric is shown. This area may also contain mode-specific options.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

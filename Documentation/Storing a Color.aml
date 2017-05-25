@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="b43b71ee-90bc-489e-9fe7-e3bffda9e12e" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers how to add a stored color to the palette mode's display.</para>
+      <mediaLink>
+        <image xlink:href="Color-Picker-Context-Store-Color" />
+      </mediaLink>
+    </introduction>
+    <section address="StoringAColor">
+      <title>Storing a Color</title>
+      <content>
+        <para>To add a stored color to the palette mode, it is necessary to use the color picker. With the desired active color selected, access the color picker's context menu. Beneath the "Store Color to Palette" option, at least one option is available: "Add as Top-Level Color". This option adds the active color to the paletted mode; this action is useful for separating un-related colors within a palette.</para>
+        <para>Once at least one top-level color exists in the palette, colors can be added beneath top-level colors through the same menu. Select the actual color within the menuing system or the "Add to this color." option; this action is useful for linking colors that are related to each other within the palette.</para>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>
